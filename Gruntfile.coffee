@@ -31,4 +31,4 @@ module.exports = (grunt) ->
 
 
 
-  grunt.registerTask("default", ["coffee", "stylus"])
+  grunt.registerTask("default", ["concat", "coffee", "stylus"])
