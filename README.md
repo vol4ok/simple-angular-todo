@@ -1,5 +1,11 @@
 # Simplest angular ToDo app
 
-![ToDo app](http://f.cl.ly/items/3Z3r043j352r3S3Y0P1w/Screen%20Shot%202013-08-08%20at%2017.45.35.png)
+![ToDo app](http://f.cl.ly/items/3X3U0b0X2H2g2e3j3S3W/todo-app.png)
 
-Exec `grunt` command for build project
+To build project:
+
+```
+npm install
+bower install
+grunt
+```
