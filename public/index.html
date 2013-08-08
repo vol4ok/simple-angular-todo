@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello</title>
+  <script src="core.js"></script>
+  <script src="user.js"></script>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <div ng-app="todo">
+
+    <div ng-controller="TodoCtrl" class="todo">
+
+      <h1>ToDo</h1>
+
+      <ul>
+        <li ng-repeat="task in tasks" ng-class="{true:'complete', false:''}[task.complete]">
+          <input type="checkbox" ng-click="on_taskClick(task)">
+          {{task.title}}
+        </li>
+      </ul>
+
+      <br>
+
+      <input type="text" ng-model="title"><br>
+      <input type="submit" value="create task" ng-click="createTask(title)">
+      
+    </div>
+    
+  </div>
+
+</body>
+</html>

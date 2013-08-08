@@ -1,0 +1,6 @@
+.todo{width:400px;margin:50px auto;padding:40px;background:#f2f2f2;border:1px solid #eee;font:16px Arial,sans;}
+.todo ul{list-style:none;padding:0;margin:0}
+.todo li{font:16px Arial,sans}
+.todo input{margin:0 0 10px;padding:8px;border:1px solid #eee;font:16px Arial,sans;outline:none}
+.todo input[type="text"]{width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.complete{text-decoration:line-through}
